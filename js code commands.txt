@@ -1,0 +1,10 @@
+document.getElementById()
+
+//Creating a element node in HTML DOM:
+
+var x = createElement('h1');
+var textElement = createTextNode('Hello');
+
+h1.appendChild(textElement);
+
+h1.setAttribute('id','xyz');
